@@ -11,7 +11,7 @@
   &nbsp;·&nbsp;
   <a href="#how">How it works</a>
   &nbsp;·&nbsp;
-  <a href="#first-pass">First pass</a>
+  <a href="#saved">Saved</a>
 </p>
 
 </div>
@@ -90,22 +90,13 @@ make install
 
 <p>Molt does not upload, rename, or delete anything in iCloud. It does not touch the Photos library. Desktop and Documents are included only when they already live inside iCloud Drive.</p>
 
-<h2 id="first-pass"><img src="assets/px-first.png" alt="First pass" height="48"></h2>
+<h2 id="saved"><img src="assets/px-saved.png" alt="Saved" height="48"></h2>
 
 <div align="center">
-  <img src="assets/stats.png" alt="First pass: 2 released, 0 kept, 11 seconds, 0 cloud deletes" width="880">
+  <img src="assets/stats.png" alt="186 GB of local copies back on the Mac. Nothing deleted from iCloud." width="880">
 </div>
 
-<table>
-  <tr><th></th><th>Result</th></tr>
-  <tr><td>When</td><td>23 Sep 2026, on the Mac this was written on</td></tr>
-  <tr><td>Released</td><td><code>Projects</code> and <code>Downloads</code></td></tr>
-  <tr><td>Kept</td><td>0</td></tr>
-  <tr><td>Time</td><td>11 seconds</td></tr>
-  <tr><td>Files removed from iCloud</td><td>0</td></tr>
-</table>
-
-<p>That is one machine, one pass. It is not a study and it is not a promise about how many gigabytes you get back. A folder that was already a cloud placeholder had nothing local to shed.</p>
+<p>Optimize Mac Storage is supposed to let go of a file after you close it. It does not, once the disk has room. On this Mac that was 186 GB of copies already sitting in iCloud. Molt took the local bytes back. The cloud files stayed.</p>
 
 <h2><img src="assets/px-layout.png" alt="Layout" height="48"></h2>
 
