@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" fill="none">
+  <rect width="1200" height="460" rx="28" fill="#07080d"/>
+  <text x="56" y="58" fill="#9aa3b5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" letter-spacing="3">FIRST PASS · 23 SEP 2026</text>
+  <text x="56" y="100" fill="#f4f7fb" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32">What the first run actually did</text>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect x="56" y="140" width="250" height="150" rx="20" fill="#10131b" stroke="#1e2636"/>
+    <text x="80" y="188" fill="#9aa3b5" font-size="14" letter-spacing="2">RELEASED</text>
+    <text x="80" y="246" fill="#3ee0c5" font-size="64" font-weight="700">2</text>
+
+    <rect x="330" y="140" width="250" height="150" rx="20" fill="#10131b" stroke="#1e2636"/>
+    <text x="354" y="188" fill="#9aa3b5" font-size="14" letter-spacing="2">KEPT</text>
+    <text x="354" y="246" fill="#f4f7fb" font-size="64" font-weight="700">0</text>
+
+    <rect x="604" y="140" width="250" height="150" rx="20" fill="#10131b" stroke="#1e2636"/>
+    <text x="628" y="188" fill="#9aa3b5" font-size="14" letter-spacing="2">SECONDS</text>
+    <text x="628" y="246" fill="#7c6bff" font-size="64" font-weight="700">11</text>
+
+    <rect x="878" y="140" width="266" height="150" rx="20" fill="#10131b" stroke="#1e2636"/>
+    <text x="902" y="188" fill="#9aa3b5" font-size="14" letter-spacing="2">CLOUD DELETES</text>
+    <text x="902" y="246" fill="#3ee0c5" font-size="64" font-weight="700">0</text>
+  </g>
+
+  <text x="56" y="340" fill="#f4f7fb" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">Projects</text>
+  <rect x="180" y="324" width="720" height="16" rx="8" fill="#1a2030"/>
+  <rect x="180" y="324" width="720" height="16" rx="8" fill="#3ee0c5"/>
+  <text x="916" y="338" fill="#9aa3b5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">released</text>
+
+  <text x="56" y="388" fill="#f4f7fb" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">Downloads</text>
+  <rect x="180" y="372" width="720" height="16" rx="8" fill="#1a2030"/>
+  <rect x="180" y="372" width="720" height="16" rx="8" fill="#7c6bff"/>
+  <text x="916" y="386" fill="#9aa3b5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">released</text>
+
+  <text x="56" y="432" fill="#6d7686" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Measured on the Mac this was written on. Not a survey. iCloud copies were not deleted.</text>
+</svg>
