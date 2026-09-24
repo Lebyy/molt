@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="assets/molt-hero.png" alt="A glass document molting into a cloud, titled MOLT" width="880">
-
-<br>
-
 <img src="assets/px-title.png" alt="MOLT. Local copies leave." width="625">
 
 <p>The one in the cloud stays.</p>
