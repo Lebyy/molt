@@ -4,12 +4,9 @@
 
 <br>
 
-<img src="assets/molt-mark.png" alt="Molt mark, a broken glass ring letting a teal wisp out" width="96">
+<img src="assets/px-title.png" alt="MOLT. Local copies leave." width="625">
 
-<h1>Molt</h1>
-
-<p>Local iCloud copies leave after you close the file.<br>
-The one in the cloud stays.</p>
+<p>The one in the cloud stays.</p>
 
 <p>
   <a href="#install"><strong>Install</strong></a>
@@ -40,10 +37,10 @@ The one in the cloud stays.</p>
 <div align="center">
   <img src="assets/molt-flow.png" alt="Three glass documents: present, opening, then only vapor" width="880">
   <br>
-  <img src="assets/pass.svg" alt="Open, close, molt" width="880">
+  <img src="assets/pass.png" alt="Open, close, molt" width="880">
 </div>
 
-<h2 id="install">Install</h2>
+<h2 id="install"><img src="assets/px-install.png" alt="Install" height="52"></h2>
 
 <p>macOS 14 or newer. Xcode or the Swift command line tools.</p>
 
@@ -56,20 +53,20 @@ make install
 
 <p>The first time the agent runs, macOS may ask for iCloud Drive access. Allow it. Without that, molt can see the folder and still not release anything.</p>
 
-<h3>By hand</h3>
+<h3><img src="assets/px-byhand.png" alt="By hand" height="40"></h3>
 
 <pre><code>swift build -c release -Xswiftc -warnings-as-errors
 .build/release/molt install
 </code></pre>
 
-<h3>Stop</h3>
+<h3><img src="assets/px-stop.png" alt="Stop" height="40"></h3>
 
 <pre><code>.build/release/molt uninstall
 </code></pre>
 
 <p>That unloads the agent and deletes its plist. The log file stays.</p>
 
-<h2 id="use">Use</h2>
+<h2 id="use"><img src="assets/px-use.png" alt="Use" height="52"></h2>
 
 <table>
   <tr><th>Command</th><th>What it does</th></tr>
@@ -87,7 +84,7 @@ make install
 <pre><code>tail -f ~/Library/Application\ Support/molt/molt.log
 </code></pre>
 
-<h2 id="how">How it works</h2>
+<h2 id="how"><img src="assets/px-how.png" alt="How it works" height="48"></h2>
 
 <ol>
   <li>You open a file. macOS downloads it. That part is Optimize Mac Storage, not molt.</li>
@@ -97,10 +94,10 @@ make install
 
 <p>Molt does not upload, rename, or delete anything in iCloud. It does not touch the Photos library. Desktop and Documents are included only when they already live inside iCloud Drive.</p>
 
-<h2 id="first-pass">First pass</h2>
+<h2 id="first-pass"><img src="assets/px-first.png" alt="First pass" height="48"></h2>
 
 <div align="center">
-  <img src="assets/stats.svg" alt="First pass: 2 released, 0 kept, 11 seconds, 0 cloud deletes" width="880">
+  <img src="assets/stats.png" alt="First pass: 2 released, 0 kept, 11 seconds, 0 cloud deletes" width="880">
 </div>
 
 <table>
@@ -114,7 +111,7 @@ make install
 
 <p>That is one machine, one pass. It is not a study and it is not a promise about how many gigabytes you get back. A folder that was already a cloud placeholder had nothing local to shed.</p>
 
-<h2>Layout</h2>
+<h2><img src="assets/px-layout.png" alt="Layout" height="48"></h2>
 
 <pre><code>Sources/MoltCore        command parsing, the launch agent plist, the log
 Sources/molt            the command line: evict, install, status
